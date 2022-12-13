@@ -13,3 +13,6 @@ un peu de style pour une mise en page douce du site.
 creation de tarifs & prestations
 modif index  galerie & style + info ds readme
 ajout de bootstrap création de contact en previsionnel 
+integration de facebook et instagram
+verification des liens
+mise en place d'un bouton choisir ds tarif

@@ -11,10 +11,13 @@ h1 {
 
 .navigation {
     margin: 10px;
-    padding: 10px;
+    padding: 20px;
     font-weight: 600;
     height: 100px;
     width: 100%;
+    cursor: pointer;
+    color: blue;
+    text-decoration: none;
 }
 
 footer {
@@ -71,6 +74,12 @@ footer {
 .h2 {
     text-align: center;
     margin: 5px;
+    font-size: 1.2rem;
+}
+
+button {
+    display: flex;
+    -ms-flex-align: end;
 }
 
 /*style coter contact*/
