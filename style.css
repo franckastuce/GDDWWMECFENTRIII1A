@@ -3,6 +3,24 @@
     padding: 0;
 }
 
-body {
-    background: red;
+/*style coter nav*/
+.navigation {
+    margin: 10px;
+    padding: 10px;
+    font-weight: 600;
+}
+
+/*style coter galerie*/
+.categories {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.categorie {
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 3px;
+    padding: 3px;
 }
