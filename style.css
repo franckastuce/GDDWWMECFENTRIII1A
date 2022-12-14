@@ -16,14 +16,14 @@
 }
 
 .navigation {
-    margin: 10px;
     padding: 20px;
     font-weight: 600;
-    height: 100px;
+    height: 50px;
     width: 100%;
     cursor: pointer;
     color: blue;
     text-decoration: none;
+    font-size: 1.2rem;
 }
 
 footer {
@@ -32,6 +32,17 @@ footer {
     font-weight: 600;
     height: 100px;
     width: 100%;
+}
+
+/*style index*/
+.indexn {
+    background-color: rgb(4, 80, 4);
+}
+
+.indexT {
+    background-color: rgb(4, 73, 4);
+    color: aliceblue;
+    height: 100%;
 }
 
 /*style galerie*/
@@ -59,23 +70,31 @@ footer {
 .tarif {
     height: 300px;
     width: 200px;
-    border: 1px solid black;
-    border-radius: 10px;
+    border: 1px solid rgb(228, 227, 227);
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px rgb(103, 103, 103);
     margin: 3px;
     padding: 3px;
     text-align: justify;
 }
 
-.h2 {
+.cartH2 {
     text-align: center;
     margin: 5px;
     font-size: 1.2rem;
 }
 
-button {
-    display: flex;
-    -ms-flex-align: end;
+.prix {
+    margin: 5px;
+    text-align: center;
 }
+
+.description {
+    margin: 5px;
+    text-align: justify;
+    align-items: center;
+}
+
 
 /*style contact*/
 .contacter {
