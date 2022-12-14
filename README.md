@@ -15,4 +15,4 @@ modif index  galerie & style + info ds readme
 ajout de bootstrap création de contact en previsionnel 
 integration de facebook et instagram
 verification des liens
-mise en place d'un bouton choisir ds tarif
+mise en place d'un bouton choisir cette préstation dans tarif
