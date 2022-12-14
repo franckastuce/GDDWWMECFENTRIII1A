@@ -1,4 +1,4 @@
-/*style toute page*/
+/*style toutes pages*/
 * {
     margin: 0;
     padding: 0;
@@ -34,10 +34,7 @@ footer {
     width: 100%;
 }
 
-/*style index*/
-
-
-/*style coter galerie*/
+/*style galerie*/
 .categories {
     display: flex;
     flex-wrap: wrap;
@@ -52,7 +49,7 @@ footer {
     padding: 3px;
 }
 
-/*style coter tarif et presta*/
+/*style tarif et presta*/
 .tarifs {
     display: flex;
     flex-wrap: wrap;
@@ -80,4 +77,20 @@ button {
     -ms-flex-align: end;
 }
 
-/*style coter contact*/
+/*style contact*/
+.contacter {
+    margin: 5px;
+    padding: 5px;
+}
+
+.check {
+    display: flex;
+    flex-direction: column;
+}
+
+.boutton {
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+}

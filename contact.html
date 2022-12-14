@@ -29,12 +29,34 @@
     </head><!--fin du head et navigation-->
     <main><!--début corp du site-->
         <h1 class="titre">ME CONTACTER</h1>
-        <p>Présenter moi vos demandes</p>
+        <p>Présenter moi votre demande</p>
         <div class="contacter">
             <form action="https://formspree.io/f/{form_id}" method="post">
-                <label for="email">Your Email</label>
+                <label for="email">votre e-mail</label>
                 <input name="Email" id="email" type="email">
-                <button type="submit">Submit</button>
+                <label for="nom">votre nom</label>
+                <input name="text" id="nom" type="text">
+                <label for="story">votre histoire:</label>
+                <textarea id="story" name="story" rows="5" cols="33"
+                    placeholder="Des précision pour votre demande..."></textarea>
+                <div class="check">
+                    <input type="checkbox" name="my-checkbox" id="un">
+                    <label for="un">« Juste moi »</label>
+                    <input type="checkbox" name="my-checkbox" id="deux">
+                    <label for="deux">« Pour deux »</label>
+                    <input type="checkbox" name="my-checkbox" id="trois">
+                    <label for="trois">« Famille »</label>
+                    <input type="checkbox" name="my-checkbox" id="quatre">
+                    <label for="quatre">« Il était une fois »</label>
+                    <input type="checkbox" name="my-checkbox" id="cinq">
+                    <label for="cinq">« Mon bébé »</label>
+                    <input type="checkbox" name="my-checkbox" id="six">
+                    <label for="six">« J’immortalise l’événement »</label>
+                </div>
+                <div class="boutton">
+                    <button type="reset">supprimer</button>
+                    <button type="submit">envoyer</button>
+                </div>
             </form>
         </div>
     </main><!--fin corp du site-->
