@@ -59,6 +59,49 @@ nav ul li a {
     border-radius: 5px;
 }
 
+/*style connexion*/
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.formWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: auto;
+}
+
+.formWrapper .card {
+    width: 360px;
+    padding: 20px;
+    background-color: rgba(0 0 0 /35%);
+}
+
+.cardHeader {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 30px 20px 0;
+    font-size: 1.1rem;
+    color: #94f7e6;
+    box-shadow: 2px 3px 8px black;
+    border-radius: 50px;
+}
+
+.cardHeader .formHeader {
+    flex: 50%;
+    text-align: center;
+    padding: 10px 0;
+    border: 1px solid transparent;
+    border-radius: 50px;
+    user-select: none;
+    cursor: pointer;
+}
+
+
 footer {
     margin: 10px;
     padding: 10px;
