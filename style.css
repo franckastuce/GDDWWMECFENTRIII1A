@@ -55,8 +55,9 @@ nav ul li a {
 }
 
 .boutton:hover {
-    border-color: black;
+    border-color: #94f7e6;
     border-radius: 5px;
+    color: #94f7e6;
 }
 
 /*style connexion*/
@@ -78,6 +79,14 @@ section {
     width: 360px;
     padding: 20px;
     background-color: rgba(0 0 0 /35%);
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s, visibility 0.3s;
+}
+
+.card.show {
+    visibility: visible;
+    opacity: 1;
 }
 
 .cardHeader {
@@ -101,6 +110,42 @@ section {
     cursor: pointer;
 }
 
+.cardBody {
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 40px 0;
+    text-align: center;
+}
+
+form {
+    flex: 0 0 100%;
+}
+
+.formControl {
+    width: 100px;
+    border: none;
+    border-bottom: 1px solid rgb(134 255 249/65%);
+    background: none;
+    padding: 10px 5px;
+    margin-bottom: 20px;
+    color: aliceblue;
+}
+
+.formboutton {
+    border: 1px solid transparent;
+    padding: 1rem 3rem;
+    background-color: transparent;
+    border-radius: 50px;
+    margin-top: 1rem;
+    font-size: 1rem;
+    color: #94f7e6;
+    transition: transform .3s, box-shadow .3s;
+}
+
+.formboutton:hover {
+    box-shadow: 3px 5px 15px #94f7e6;
+    transform: translatey(-5px);
+}
 
 footer {
     margin: 10px;

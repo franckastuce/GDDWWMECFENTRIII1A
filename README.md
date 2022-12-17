@@ -19,3 +19,4 @@ mise en place d'un bouton choisir cette préstation dans tarif
 pose du code pour ecrir le pdf du devoir
 un peux de style et amelioration de contact
 refonte de la navigation pour un futur ajout de formulaire
+travail sur le formulaire et création de js pour la suite des événement.
