@@ -20,3 +20,4 @@ pose du code pour ecrir le pdf du devoir
 un peux de style et amelioration de contact
 refonte de la navigation pour un futur ajout de formulaire
 travail sur le formulaire et création de js pour la suite des événement.
+connexion pour charles en css terminer reste sa page d'integration de photos a faire.

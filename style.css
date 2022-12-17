@@ -96,7 +96,7 @@ section {
     margin: 30px 20px 0;
     font-size: 1.1rem;
     color: #94f7e6;
-    box-shadow: 2px 3px 8px black;
+    /*box-shadow: 2px 3px 8px black;*/
     border-radius: 50px;
 }
 
@@ -107,7 +107,6 @@ section {
     border: 1px solid transparent;
     border-radius: 50px;
     user-select: none;
-    cursor: pointer;
 }
 
 .cardBody {
@@ -122,7 +121,7 @@ form {
 }
 
 .formControl {
-    width: 100px;
+    width: 150px;
     border: none;
     border-bottom: 1px solid rgb(134 255 249/65%);
     background: none;
