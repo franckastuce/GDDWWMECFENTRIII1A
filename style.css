@@ -259,9 +259,26 @@ img {
 
 
 /*style contact*/
+.choix {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 5px 20px;
+    margin: 20px;
+}
+
 .contacter {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 50%;
     margin: 5px;
     padding: 5px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
 }
 
 .check {
@@ -269,9 +286,10 @@ img {
     flex-direction: column;
 }
 
-.boutton {
+.reset .submit {
     margin: 5px;
     padding: 5px;
-    display: flex;
-    flex-direction: row;
+    font-size: 1.2rem;
+    height: auto;
+    width: 100px;
 }

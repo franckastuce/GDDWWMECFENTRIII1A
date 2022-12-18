@@ -32,34 +32,37 @@
     <main><!--début corp du site-->
         <h1 class="titre">ME CONTACTER</h1>
         <p>Présenter moi votre demande</p>
-        <div class="contacter">
-            <form action="https://formspree.io/f/{form_id}" method="post">
-                <label for="email">votre e-mail</label>
-                <input name="Email" id="email" type="email">
-                <label for="nom">votre nom</label>
-                <input name="text" id="nom" type="text">
-                <label for="story">votre histoire:</label>
-                <textarea id="story" name="story" rows="5" cols="33"
-                    placeholder="Des précision pour votre demande..."></textarea>
-                <div class="check">
-                    <input type="checkbox" name="my-checkbox" id="un">
-                    <label for="un">« Juste moi »</label>
-                    <input type="checkbox" name="my-checkbox" id="deux">
-                    <label for="deux">« Pour deux »</label>
-                    <input type="checkbox" name="my-checkbox" id="trois">
-                    <label for="trois">« Famille »</label>
-                    <input type="checkbox" name="my-checkbox" id="quatre">
-                    <label for="quatre">« Il était une fois »</label>
-                    <input type="checkbox" name="my-checkbox" id="cinq">
-                    <label for="cinq">« Mon bébé »</label>
-                    <input type="checkbox" name="my-checkbox" id="six">
-                    <label for="six">« J’immortalise l’événement »</label>
-                </div>
-                <div class="boutton">
-                    <button type="reset">supprimer</button>
-                    <button type="submit">envoyer</button>
-                </div>
-            </form>
+        <div class="choix">
+            <div class="contacter">
+                <form action="https://formspree.io/f/{form_id}" method="post">
+                    <label for="email">votre e-mail</label>
+                    <input name="Email" id="email" type="email">
+                    <label for="nom">votre nom</label>
+                    <input name="text" id="nom" type="text">
+                    <label for="story">votre histoire:</label>
+                    <textarea id="story" name="story" rows="5" cols="33"
+                        placeholder="Des précisions pour votre demande..."></textarea>
+                    <div>
+                        <button class="reset" type="reset">supprimer</button>
+                        <button class="submit" type="submit">envoyer</button>
+                    </div>
+                </form>
+            </div>
+            <div class="check">
+                <label for="un"><input type="checkbox" name="my-checkbox" id="un">« Juste moi »
+                </label>
+                <label for="deux"><input type="checkbox" name="my-checkbox" id="deux">« Pour deux »
+                </label>
+                <label for="trois"><input type="checkbox" name="my-checkbox" id="trois">« Famille »
+                </label>
+                <label for="quatre"><input type="checkbox" name="my-checkbox" id="quatre">« Il était une fois »
+                </label>
+                <label for="cinq"><input type="checkbox" name="my-checkbox" id="cinq">« Mon bébé »
+                </label>
+                <label for="six"><input type="checkbox" name="my-checkbox" id="six">« J’immortalise l’événement »
+                </label>
+
+            </div>
         </div>
     </main><!--fin corp du site-->
     <!--<footer>début de fin de la page
