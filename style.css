@@ -169,18 +169,57 @@ footer {
 }
 
 /*style galerie*/
+.hdp {
+    color: red;
+    position: fixed;
+    bottom: 40px;
+    left: 95%;
+}
+
 .categories {
     display: flex;
     flex-wrap: wrap;
 }
 
 .categorie {
-    height: 200px;
-    width: 200px;
-    border: 1px solid black;
-    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 50%;
+    margin: 5px;
+    padding: 5px;
+}
+
+.liste {
+    margin: 5px;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+.liste:hover {
+    color: #94f7e6;
+}
+
+.titreGalerie {
+    margin-right: 50px;
+    font-size: larger;
+    font-weight: 300;
+    font-style: italic;
+    text-align: center;
+}
+
+img {
+    display: flex;
+    flex-wrap: wrap;
     margin: 3px;
-    padding: 3px;
+    box-shadow: 2px 2px 3px;
+}
+
+.photo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 /*style tarif et presta*/
