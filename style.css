@@ -179,21 +179,15 @@ footer {
 .categories {
     display: flex;
     flex-wrap: wrap;
-}
-
-.categorie {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 50%;
-    margin: 5px;
-    padding: 5px;
+    font-size: 2rem;
+    position: relative;
+    left: 50px;
 }
 
 .liste {
     margin: 5px;
     padding: 5px;
-    text-decoration: none;
+    list-style: none;
     color: black;
 }
 
@@ -201,25 +195,36 @@ footer {
     color: #94f7e6;
 }
 
+.detail {
+    display: flex;
+    flex-direction: column;
+}
+
 .titreGalerie {
     margin-right: 50px;
-    font-size: larger;
-    font-weight: 300;
+    font-size: 2.5rem;
+    font-weight: 700;
     font-style: italic;
     text-align: center;
 }
 
-img {
+.categorie {
     display: flex;
     flex-wrap: wrap;
-    margin: 3px;
-    box-shadow: 2px 2px 3px;
+    width: 50%;
+    margin: 5px;
+    padding: 5px;
+}
+
+.galery {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
 }
 
 .photo {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    margin: 3px;
+    box-shadow: 2px 2px 3px;
 }
 
 /*style tarif et presta*/
