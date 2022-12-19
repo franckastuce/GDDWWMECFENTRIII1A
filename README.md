@@ -23,3 +23,4 @@ travail sur le formulaire et création de js pour la suite des événement.
 connexion pour charles en css terminer reste sa page d'integration de photos a faire.
 mise en place des 1er img dans galerie avec liste en lien et un boutton haut de page (hdp)
 maj style readme et galerie pour lien photos et style.
+integration de la page pour que charle puisse deposer ces photos maj index readme
